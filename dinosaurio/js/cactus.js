@@ -1,6 +1,7 @@
 class Cactus{
     constructor(){
         this.aparicion=90;
+        this.velocidadCactus=-4;
     }
     cargar(){
 
@@ -31,7 +32,7 @@ class Cactus{
              c.addImage(imagenCactus);
              c.setCollider("rectangle",0,0,dxCollider,dyCollider);
              c.debug=true;
-             c.setVelocity(-4,0);
+             c.setVelocity(this.velocidadCactus,0);
              this.cactusGrupo.add(c);
          }
          

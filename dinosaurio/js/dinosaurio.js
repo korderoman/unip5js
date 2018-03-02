@@ -1,5 +1,7 @@
 class Dinosaurios{
-        
+        constructor(){
+            this.velocidadFondo=-2;
+        }
         
     cargar(){
         const direccion="./recursos/imagenes/"
@@ -15,8 +17,8 @@ class Dinosaurios{
 
     crear(){
         this.dino=createSprite(width/2,height-40);
-        this.dino.addAnimation("correr",this.dinoCorre);
         this.dino.addAnimation("inicio",this.dinoInicio);
+        this.dino.addAnimation("correr",this.dinoCorre);
         this.dino.addAnimation("muerto", this.dinoMuere);
         this.dino.addAnimation("agachado",this.dinoAgachado);
         //this.dino.setCollider("rectangle",0,0,30,40);
@@ -30,7 +32,7 @@ class Dinosaurios{
             fondo.setCollider("rectangle",0,0,this.fondoImagen.width,this.fondoImagen.height);
             fondo.debug=true;
             fondo.depth=-1;
-            fondo.setVelocity(-2,0);
+            fondo.setVelocity(this.velocidadFondo,0);
             this.fondoGrupo.add(fondo);
         }
     }
@@ -71,11 +73,11 @@ class Dinosaurios{
         }
     }
 
-    muerte(cactusGrupo){
+    muerte(cactusGrupo,avesGrupo){
        /*let self=this dado que se pierde el contexto podemos optar por esta alternativa
         this.dino.overlap(cactusGrupo,self.juegoTerminado);
         */
-       if(this.dino.overlap(cactusGrupo)){
+       if(this.dino.overlap(cactusGrupo) || this.dino.overlap(avesGrupo)){
            juegoTerminado();
        }
     }
