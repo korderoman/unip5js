@@ -1,43 +1,59 @@
 # unip5js
-Contenido del Curso
-  Introducción a los VideoJuegos
-  Estado del Arte de los VideoJuegos
-  Introducción a P5 y descripción de sus librerías
-  Conceptos de la Programación Orientada a Objetos
-  Conceptos y sintaxis de JavaScript
-    Variables, operadores matemáticos,operadores lógicos
-    Estructuras de control (condicionales, bucles determinados e indeterminados)
-    Funciones y Métodos
-    Alcance de Variable
-    Creación de clases y  Objetos (uso de la azúcar sintáctica, instanciación)
-    Arreglos
+<h1>Contenido del Curso</h1>
+  <strong>Introducción a los VideoJuegos</strong><br>
+	<ul>
+	  <li>Estado del Arte de los VideoJuegos</li>
+  <li>Introducción a P5 y descripción de sus librerías</li>
+  <li>Conceptos de la Programación Orientada a Objetos</li>
+  <li>Conceptos y sintaxis de JavaScript</li>
+	<ul>
+		<li> Variables, operadores matemáticos,operadores lógicos</li>
+    <li>Estructuras de control (condicionales, bucles determinados e indeterminados)</li>
+    <li>Funciones y Métodos</li>
+    <li>Alcance de Variable</li>
+    <li>Creación de clases y  Objetos (uso de la azúcar sintáctica, instanciación)</li>
+    <li>Arreglos</li>
+	</ul>
+   
     
-  P5.JS
-    Objetos primitivos
-    Sistema de Coordenadas
-    Funciones primarias de P5.JS (Preload, Setup, Draw)
-    Dibujando en el Canva.
-    Detección del Mouse.
-    Práctica 1
-      Práctica Fronton
-      Práctica Líneas en Movimiento
-      Práctica Círculos Concéntricos
-      Práctica Emular disparos
-    Detección de Teclado
-      KeyPressed, KeyCode
-      KeyIsPressed
-      KeyIsDown
-    Práctica 2
-      Creación de una nave y disparos
- P5.play.js
-    Sprites-Concepto, propiedades y Métodos
-    Animaciones-Concepto, propiedades y Métodos
-    Cámara-Concepto, propiedades y Métodos
-    Grupos - Concepto, propiedades y Métodos.
-    Proyectos:
-      Flappy Bird
-      Dinosaurio de Google
-      Space Invaders
+  <li>P5.JS</li>
+	<ul>
+			<li>Objetos primitivos</li>
+				<li>Sistema de Coordenadas</li>
+				<li>Funciones primarias de P5.JS (Preload, Setup, Draw)</li>
+				<li>Dibujando en el Canva.</li>
+				<li>Detección del Mouse.</li>
+				<li>Práctica 1</li>
+					<ul>
+					<li>Práctica Fronton</li>
+					<li>Práctica Líneas en Movimiento</li>
+					<li>Práctica Círculos Concéntricos</li>
+					<li>Práctica Emular disparos</li>
+					</ul>
+				<li>Detección de Teclado</li>
+					<ul>
+							<li>KeyPressed, KeyCode</li>
+							<li>KeyIsPressed</li>
+							<li>KeyIsDown</li>
+					</ul>
+				<li>Práctica 2</li>
+					<ul><li>Creación de una nave y disparos</li></ul>
+   </ul> 
+ <li>P5.play.js</li>
+ <ul>
+ <li>Sprites-Concepto, propiedades y Métodos</li>
+    <li>Animaciones-Concepto, propiedades y Métodos</li>
+    <li>Cámara-Concepto, propiedades y Métodos</li>
+    <li>Grupos - Concepto, propiedades y Métodos.</li>
+    <li>Proyectos:</li>
+			<ul>
+			<li>Flappy Bird</li>
+      <li>Dinosaurio de Google</li>
+      <li>Space Invaders</li>
+			</ul>  
+</ul> 
+	</ul>
+
     
     
     
